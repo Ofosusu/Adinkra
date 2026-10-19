@@ -1,0 +1,25 @@
+.features {
+    max-width: var(--content-width);
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.feature {
+    padding: 1.5rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-card);
+    background: var(--color-white);
+}
+
+.feature h3 {
+    color: var(--color-primary);
+}
+
+@media (max-width: 700px) {
+    .features {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,10 @@
+.page-content {
+    max-width: var(--content-width);
+    min-height: 55vh;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+}
+
+.page-content h1 {
+    color: var(--color-primary);
+}

@@ -1,0 +1,39 @@
+.site-header {
+    max-width: var(--content-width);
+    margin: 0 auto;
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+.site-header nav {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.site-header nav a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.site-header nav a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+    .site-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
