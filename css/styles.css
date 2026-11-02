@@ -12,3 +12,18 @@
 @import url("./pages/travel.css");
 
 @import url("./pages/ghana.css");
+
+/* ADINKRA WHITE THEME */
+html, body {
+    background: #ffffff;
+}
+
+.hero {
+    background: #ffffff;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.site-footer {
+    background: #ffffff;
+    border-top: 1px solid var(--color-border);
+}
