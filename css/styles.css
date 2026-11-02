@@ -27,3 +27,24 @@ html, body {
     background: #ffffff;
     border-top: 1px solid var(--color-border);
 }
+
+/* ADINKRA CRYSTAL BLUE HEADERS */
+:root {
+    --color-crystal-blue: #2e9bda;
+}
+
+h1, h2, h3, h4, h5, h6,
+.hero h1,
+.page-content h1,
+.page-content h2,
+.page-content h3,
+.card h3,
+.feature h3,
+.logo,
+.site-header nav a {
+    color: var(--color-crystal-blue) !important;
+}
+
+.hero .button {
+    color: #ffffff !important;
+}
