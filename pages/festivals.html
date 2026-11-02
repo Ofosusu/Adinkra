@@ -1,43 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ghanaian Festivals | Adinkra</title>
-  <link rel="stylesheet" href="../css/styles.css">
-  <script src="../js/travel-pages.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festivals | Adinkra</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/data/ghana-data.js" defer></script>
+    <script src="../js/main.js" defer></script>
+    <script src="../js/pages/render.js" defer></script>
 </head>
-<body>
-  <header class="site-header">
-    <a class="logo" href="../index.html">Adinkra</a>
-    <nav aria-label="Main navigation">
-      <a href="../index.html">Home</a>
-      <a href="destinations.html">Destinations</a>
-      <a href="festivals.html">Festivals</a>
-      <a href="things-to-know.html">Things to Know</a>
-      <a href="stays.html">Where to Stay</a>
-      <a href="heritage.html">Heritage</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-
-  <section class="travel-hero">
-    <p class="eyebrow">Culture, identity and celebration</p>
-    <h1>Experience Ghanaian Festivals</h1>
-    <p>Learn about the traditions, communities and celebrations that make Ghana culturally rich.</p>
-  </section>
-
-  <main class="travel-main">
-    <div class="travel-note">
-      Festival dates can change. Some follow traditional or lunar calendars.
-      Confirm dates, public access, photography rules and local protocols
-      before planning a visit.
-    </div>
-    <div id="festivals-container" class="card-grid"></div>
-  </main>
-
-  <footer class="site-footer">
-    <p>© <span id="year">2026</span> Adinkra. Discover Ghana.</p>
-  </footer>
+<body data-page="festivals" data-prefix="../">
+    <header class="site-header">
+        <a class="logo" href="../index.html">Adinkra</a>
+        <nav aria-label="Main navigation">
+            <a href="../index.html">Home</a>
+            <a href="../pages/destinations.html">Destinations</a>
+            <a href="../pages/festivals.html">Festivals</a>
+            <a href="../pages/things-to-know.html">Things You Should Know</a>
+            <a href="../pages/heritage.html">Heritage</a>
+            <a href="../pages/tours.html">Tours</a>
+            <a href="../pages/contact.html">Contact</a>
+        </nav>
+    </header>
+    <main class="page-content">
+        <h1>Festivals of Ghana</h1>
+        <p>
+            Festivals are a living part of Ghanaian life. They mark harvests,
+            history, thanksgiving and community. Many follow traditional
+            calendars, so dates change every year.
+        </p>
+        <div class="notice">
+            Dates here are general. Confirm each year's date and visitor
+            etiquette before you plan a trip. Ask before taking photographs
+            at ceremonies.
+        </div>
+        <div class="card-grid" id="festivals-root"></div>
+        <noscript><p>Please enable JavaScript to see the festivals.</p></noscript>
+    </main>
+    <footer class="site-footer">
+        <p>&copy; <span id="year">2026</span> Adinkra. Discover Ghana.</p>
+    </footer>
 </body>
 </html>

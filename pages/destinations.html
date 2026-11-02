@@ -1,44 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Explore destinations across all 16 regions of Ghana.">
-  <title>Destinations Across Ghana | Adinkra</title>
-  <link rel="stylesheet" href="../css/styles.css">
-  <script src="../js/travel-pages.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations | Adinkra</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/data/ghana-data.js" defer></script>
+    <script src="../js/main.js" defer></script>
+    <script src="../js/pages/render.js" defer></script>
 </head>
-<body>
-  <header class="site-header">
-    <a class="logo" href="../index.html">Adinkra</a>
-    <nav aria-label="Main navigation">
-      <a href="../index.html">Home</a>
-      <a href="destinations.html">Destinations</a>
-      <a href="festivals.html">Festivals</a>
-      <a href="things-to-know.html">Things to Know</a>
-      <a href="stays.html">Where to Stay</a>
-      <a href="heritage.html">Heritage</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+<body data-page="destinations" data-prefix="../">
+    <header class="site-header">
+        <a class="logo" href="../index.html">Adinkra</a>
+        <nav aria-label="Main navigation">
+            <a href="../index.html">Home</a>
+            <a href="../pages/destinations.html">Destinations</a>
+            <a href="../pages/festivals.html">Festivals</a>
+            <a href="../pages/things-to-know.html">Things You Should Know</a>
+            <a href="../pages/heritage.html">Heritage</a>
+            <a href="../pages/tours.html">Tours</a>
+            <a href="../pages/contact.html">Contact</a>
+        </nav>
+    </header>
+    <main class="page-content">
+        <h1>Destinations in Ghana</h1>
+        <p>
+            Ghana has 16 regions. Each one has its own history, landscapes
+            and traditions. Choose a region to see its places.
+        </p>
 
-  <section class="travel-hero">
-    <p class="eyebrow">Explore all 16 regions</p>
-    <h1>Discover Ghana, Region by Region</h1>
-    <p>From coastal castles and royal heritage to waterfalls, forests, markets and traditional communities.</p>
-  </section>
+        <div class="notice">
+            <strong>Before you go:</strong> Opening hours, fees and access change.
+            Some historic forts are temporarily closed for conservation. Always
+            confirm current details with the site or the Ghana Museums and
+            Monuments Board before you travel. Places marked
+            "Unverified" are leads that still need research.
+        </div>
 
-  <main class="travel-main">
-    <div class="travel-note">
-      <strong>Research note:</strong> This is an initial destination directory.
-      Some entries are research leads. Confirm access, opening times, fees,
-      location and visitor arrangements before travelling.
-    </div>
-    <div id="regions-container"></div>
-  </main>
+        <h2>Jump to a region</h2>
+        <ul class="jump-nav" id="region-nav"></ul>
 
-  <footer class="site-footer">
-    <p>© <span id="year">2026</span> Adinkra. Discover Your Roots. Experience Ghana.</p>
-  </footer>
+        <div id="regions-root"></div>
+        <noscript><p>Please enable JavaScript to see the list of regions and places.</p></noscript>
+    </main>
+    <footer class="site-footer">
+        <p>&copy; <span id="year">2026</span> Adinkra. Discover Ghana.</p>
+    </footer>
 </body>
 </html>

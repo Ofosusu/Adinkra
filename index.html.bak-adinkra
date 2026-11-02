@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover Ghanaian roots, heritage, destinations and travel experiences.">
+  <title>Adinkra | Discover Your Roots</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Adinkra</a>
+    <nav aria-label="Main navigation">
+      <a href="pages/destinations.html">Destinations</a>
+      <a href="pages/festivals.html">Festivals</a>
+      <a href="pages/things-to-know.html">Things to Know</a>
+      <a href="pages/stays.html">Where to Stay</a>
+      <a href="pages/heritage.html">Heritage</a>
+      <a href="pages/contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Your journey to Ghana begins here</p>
+      <h1>Discover Your Roots. Experience Ghana.</h1>
+      <p>
+        Explore Ghana's regions, learn about its history and traditions,
+        discover festivals, and prepare for a meaningful visit.
+      </p>
+      <a class="button" href="pages/destinations.html">Explore Ghana</a>
+    </section>
+
+    <section class="intro">
+      <h2>More Than a Trip</h2>
+      <p>
+        Adinkra is a cultural discovery and travel platform for people
+        interested in Ghanaian heritage, African history, cultural
+        experiences and meaningful travel.
+      </p>
+    </section>
+
+    <section class="features">
+      <article class="feature">
+        <h3>Explore the 16 Regions</h3>
+        <p>Discover destinations, landmarks, communities and landscapes across Ghana.</p>
+        <a href="pages/destinations.html">Explore destinations</a>
+      </article>
+      <article class="feature">
+        <h3>Experience Festivals</h3>
+        <p>Learn about traditional celebrations and contemporary cultural events.</p>
+        <a href="pages/festivals.html">Discover festivals</a>
+      </article>
+      <article class="feature">
+        <h3>Prepare for Your Visit</h3>
+        <p>Understand transport, weather, currency and languages before travelling.</p>
+        <a href="pages/things-to-know.html">Things to know</a>
+      </article>
+      <article class="feature">
+        <h3>Find Accommodation</h3>
+        <p>Explore hotels, guesthouses and places to stay around Ghana.</p>
+        <a href="pages/stays.html">Where to stay</a>
+      </article>
+      <article class="feature">
+        <h3>Discover Heritage</h3>
+        <p>Learn about Ghanaian history, traditional symbols and diaspora connections.</p>
+        <a href="pages/heritage.html">Explore heritage</a>
+      </article>
+      <article class="feature">
+        <h3>Plan Your Journey</h3>
+        <p>Start exploring cultural experiences and ideas for your trip.</p>
+        <a href="pages/tours.html">Explore tours</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year">2026</span> Adinkra. Discover Ghana.</p>
+  </footer>
+</body>
+</html>

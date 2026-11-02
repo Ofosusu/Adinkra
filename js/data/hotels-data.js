@@ -1,0 +1,23 @@
+// Generated hotel list. Confirm current operation, rates and booking details before publishing.
+window.ADINKRA_HOTELS = [
+  { slug: "kempinski-gold-coast", name: "Kempinski Hotel Gold Coast City", place: "Accra", region: "Greater Accra", type: "Hotel", note: "Luxury hotel near the coast. Confirm current name and rates." },
+  { slug: "labadi-beach-hotel", name: "Labadi Beach Hotel", place: "Labadi, Accra", region: "Greater Accra", type: "Hotel", note: "Beachfront hotel in Accra." },
+  { slug: "movenpick-ambassador", name: "Movenpick Ambassador Hotel", place: "Accra", region: "Greater Accra", type: "Hotel", note: "Business and leisure hotel in central Accra." },
+  { slug: "alisa-north-ridge", name: "Alisa Hotel North Ridge", place: "North Ridge, Accra", region: "Greater Accra", type: "Hotel", note: "Hotel in a central residential area." },
+  { slug: "villa-monticello", name: "Villa Monticello", place: "Accra", region: "Greater Accra", type: "Boutique guest house", note: "Boutique stay. Confirm availability and current status." },
+  { slug: "big-millys-backyard", name: "Big Milly's Backyard", place: "Kokrobite", region: "Greater Accra", type: "Beach guest house", note: "Beach hostel with a music scene." },
+  { slug: "golden-tulip-kumasi", name: "Golden Tulip Kumasi City", place: "Kumasi", region: "Ashanti", type: "Hotel", note: "Central hotel in Kumasi." },
+  { slug: "lancaster-kumasi", name: "Lancaster Kumasi City", place: "Kumasi", region: "Ashanti", type: "Hotel", note: "City hotel. Confirm facilities." },
+  { slug: "miklin-hotel", name: "Miklin Hotel", place: "Kumasi", region: "Ashanti", type: "Hotel", note: "Mid-range hotel in Kumasi." },
+  { slug: "hans-cottage-botel", name: "Hans Cottage Botel", place: "Near Cape Coast", region: "Central", type: "Lodge", note: "Rooms built over a crocodile lake. Close to Kakum." },
+  { slug: "oasis-beach-resort", name: "Oasis Beach Resort", place: "Cape Coast", region: "Central", type: "Beach guest house", note: "Beach stay close to Cape Coast Castle." },
+  { slug: "coconut-grove-elmina", name: "Coconut Grove Beach Resort", place: "Elmina", region: "Central", type: "Beach resort", note: "Resort near Elmina Castle." },
+  { slug: "busua-beach-resort", name: "Busua Beach Resort", place: "Busua", region: "Western", type: "Beach resort", note: "Beachfront rooms at Busua." },
+  { slug: "green-turtle-lodge", name: "Green Turtle Lodge", place: "Akwidaa", region: "Western", type: "Eco-lodge", note: "Eco-lodge on a quiet beach. Confirm access and current operation." },
+  { slug: "volta-hotel", name: "Volta Hotel", place: "Akosombo", region: "Eastern", type: "Hotel", note: "Hotel above the Volta Lake and dam." },
+  { slug: "peduase-valley-resort", name: "Peduase Valley Resort", place: "Aburi area", region: "Eastern", type: "Resort", note: "Hillside resort near Accra." },
+  { slug: "aqua-safari-resort", name: "Aqua Safari Resort", place: "Sogakope", region: "Volta", type: "Resort", note: "Riverside resort on the Volta." },
+  { slug: "mole-motel", name: "Mole Motel", place: "Mole National Park", region: "Savannah", type: "Park lodge", note: "Lodge inside the park with views of the waterhole." },
+  { slug: "zaina-lodge", name: "Zaina Lodge", place: "Near Mole National Park", region: "Savannah", type: "Safari lodge", note: "Safari-style lodge. Confirm rates and bookings." },
+  { slug: "modern-city-hotel-tamale", name: "Modern City Hotel", place: "Tamale", region: "Northern", type: "Hotel", note: "Hotel in Tamale for northern trips." },
+];

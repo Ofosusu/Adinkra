@@ -1,115 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Things to Know Before Visiting Ghana | Adinkra</title>
-  <link rel="stylesheet" href="../css/styles.css">
-  <script src="../js/travel-pages.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Things You Should Know | Adinkra</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/data/ghana-data.js" defer></script>
+    <script src="../js/main.js" defer></script>
+    <script src="../js/pages/render.js" defer></script>
 </head>
-<body>
-  <header class="site-header">
-    <a class="logo" href="../index.html">Adinkra</a>
-    <nav aria-label="Main navigation">
-      <a href="../index.html">Home</a>
-      <a href="destinations.html">Destinations</a>
-      <a href="festivals.html">Festivals</a>
-      <a href="things-to-know.html">Things to Know</a>
-      <a href="stays.html">Where to Stay</a>
-      <a href="heritage.html">Heritage</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+<body data-page="things" data-prefix="../">
+    <header class="site-header">
+        <a class="logo" href="../index.html">Adinkra</a>
+        <nav aria-label="Main navigation">
+            <a href="../index.html">Home</a>
+            <a href="../pages/destinations.html">Destinations</a>
+            <a href="../pages/festivals.html">Festivals</a>
+            <a href="../pages/things-to-know.html">Things You Should Know</a>
+            <a href="../pages/heritage.html">Heritage</a>
+            <a href="../pages/tours.html">Tours</a>
+            <a href="../pages/contact.html">Contact</a>
+        </nav>
+    </header>
+    <script src="../js/data/hotels-data.js"></script>
+    <main class="page-content">
+        <h1>Things You Should Know</h1>
+        <p>Practical information to prepare you for your journey.</p>
 
-  <section class="travel-hero">
-    <p class="eyebrow">Prepare for your journey</p>
-    <h1>Things to Know Before Visiting Ghana</h1>
-    <p>Practical information about getting around, weather, money and languages.</p>
-  </section>
+        <ul class="jump-nav">
+            <li><a href="#transport">Transport</a></li>
+            <li><a href="#weather">Weather</a></li>
+            <li><a href="#money">Money</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#stay">Hotels and Guest Houses</a></li>
+        </ul>
 
-  <main class="travel-main">
-    <section class="region-section">
-      <h2>Getting Around Ghana</h2>
-      <p>Ghana has several forms of transport. The best option depends on your destination, budget and comfort.</p>
-      <div id="transport-container" class="card-grid"></div>
-    </section>
+        <section id="transport">
+            <h2>Getting around: transport in Ghana</h2>
+            <p>
+                Ghana offers many ways to travel, from shared minibuses to
+                flights. Distances can be longer than they look on a map, and
+                traffic in Accra and Kumasi can be heavy.
+            </p>
+            <div class="card-grid" id="transport-root"></div>
+            <p class="meta">Typical journey: Accra to Kumasi is a few hours by road, and Accra to Cape Coast is about two to three hours, depending on traffic.</p>
+        </section>
 
-    <section class="region-section">
-      <h2>Ghana's Weather: January to December</h2>
-      <p>
-        Ghana is tropical, but weather differs between the coast, forest belt
-        and northern savannah. These are general seasonal expectations, not
-        a daily forecast.
-      </p>
-      <div class="travel-note">
-        Pack light clothing, comfortable walking shoes, sun protection and
-        a light rain jacket. Check a local forecast before travelling.
-      </div>
-      <div id="weather-container" class="card-grid"></div>
-    </section>
+        <section id="weather">
+            <h2>Weather from January to December</h2>
+            <p>
+                Southern Ghana has two rainy seasons, the main one from about
+                April to July and a shorter one around September to November.
+                Northern Ghana has one rainy season, roughly May to October,
+                and a long dry season. Temperatures stay warm all year.
+            </p>
+            <div class="table-wrap">
+                <table class="data">
+                    <thead>
+                        <tr><th>Month</th><th>South and coast</th><th>North</th><th>Travel tip</th></tr>
+                    </thead>
+                    <tbody id="weather-body"></tbody>
+                </table>
+            </div>
+            <p class="meta">These are general patterns. Weather varies by year and by location, so check a forecast before you travel.</p>
+        </section>
 
-    <section class="region-section">
-      <h2>Money and Currency in Ghana</h2>
-      <div class="notice">
-        <h3>The Ghanaian Cedi (GHS)</h3>
-        <p>
-          Ghana's official currency is the Ghanaian cedi, written as GHS
-          and represented by GH₵. One cedi is divided into 100 pesewas.
-          Prices in Ghana are normally quoted in cedis.
-        </p>
-        <p>
-          Banknotes and coins are used. Mobile money and bank cards are also
-          used by many businesses, especially in cities. Cash is useful for
-          markets, smaller shops, local transport and rural areas.
-        </p>
-        <p>
-          Some hotels, tour companies and businesses may quote prices in
-          foreign currencies, but visitors should not assume that US dollars
-          or other foreign currencies will be accepted by ordinary shops
-          or transport operators. Exchange money through authorised providers.
-        </p>
-      </div>
-    </section>
+        <section id="money">
+            <h2>Money: we spend cedis in Ghana</h2>
+            <p>
+                The currency of Ghana is the <strong>Ghanaian cedi</strong>
+                (code GHS, often written GH&cent; or GH&#8373;). One cedi is made up of 100 pesewas.
+                Everyday spending in shops, markets, transport and restaurants is done in cedis.
+            </p>
+            <div class="money-grid">
+                <article class="card">
+                    <h3>Cash (cedis)</h3>
+                    <p>Carry small notes and coins for trotros, taxis, markets and tips. Vendors may not have change for large notes.</p>
+                </article>
+                <article class="card">
+                    <h3>Foreign currency</h3>
+                    <p>US dollars, British pounds and euros can be exchanged for cedis at banks and licensed foreign exchange bureaus. Foreign cash is not normally used for everyday purchases. Some hotels and tour operators quote prices in dollars.</p>
+                </article>
+                <article class="card">
+                    <h3>Bank cards</h3>
+                    <p>Visa and Mastercard are accepted at many hotels, restaurants and shops in cities. Use ATMs to withdraw cedis. Tell your bank you are travelling.</p>
+                </article>
+                <article class="card">
+                    <h3>Mobile money</h3>
+                    <p>Mobile money services are widely used for payments. Visitors may be able to use them with a local SIM and ID. Ask your host or hotel for help.</p>
+                </article>
+            </div>
+            <p class="meta">Exchange rates and rules change. Check current rates and any limits before you travel.</p>
+        </section>
 
-    <section class="region-section">
-      <h2>Languages Spoken in Ghana</h2>
-      <div class="notice">
-        <h3>English is Ghana's official language</h3>
-        <p>
-          English is widely used in government, education, business and
-          tourism. Ghana is also home to many local languages. The list below
-          includes major and selected languages; it is not an exhaustive
-          linguistic catalogue.
-        </p>
-      </div>
-      <div id="languages-container" class="card-grid"></div>
-    </section>
+        <section id="languages">
+            <h2>Languages spoken in Ghana</h2>
+            <p>
+                Ghana is known as an English-speaking country because English is
+                the official language, used in government, schools and business.
+                But Ghana is also home to dozens of local languages, and many
+                people speak more than one. Which language dominates depends on
+                where you are.
+            </p>
+            <ul class="language-list" id="language-list"></ul>
+            <p>
+                A few friendly words in Twi:
+                <strong>Akwaaba</strong> (welcome), <strong>Maakye</strong> (good morning)
+                and <strong>Medaase</strong> (thank you).
+            </p>
+        </section>
 
-    <section class="region-section">
-      <h2>Helpful Travel Reminders</h2>
-      <div class="card-grid">
-        <article class="info-card">
-          <h3>Weather and clothing</h3>
-          <p>Dress for heat and humidity, and carry rain protection during wetter months.</p>
-        </article>
-        <article class="info-card">
-          <h3>Local customs</h3>
-          <p>Ask permission before photographing people, ceremonies, palaces or sacred places.</p>
-        </article>
-        <article class="info-card">
-          <h3>Planning journeys</h3>
-          <p>Travel times can be longer than expected. Allow extra time for traffic and road conditions.</p>
-        </article>
-        <article class="info-card">
-          <h3>Payments</h3>
-          <p>Carry some cedis in smaller denominations, even if you also use cards or mobile money.</p>
-        </article>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <p>© <span id="year">2026</span> Adinkra. Discover Ghana.</p>
-  </footer>
+        <section id="stay">
+            <h2>Hotels and guest houses</h2>
+            <p>
+                Here are places to start your search. Names and details should
+                be confirmed directly with each property before you book, since
+                rates, quality and operating status change.
+            </p>
+            <div class="notice">
+                Pictures shown here are placeholders until licensed photos are added to
+                <code>assets/images/hotels</code>.
+            </div>
+            <div id="hotels-root"></div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <p>&copy; <span id="year">2026</span> Adinkra. Discover Ghana.</p>
+    </footer>
 </body>
 </html>
