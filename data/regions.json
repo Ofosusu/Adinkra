@@ -1,0 +1,190 @@
+[
+  {
+    "name": "Greater Accra",
+    "capital": "Accra",
+    "description": "Ghana's national capital region, known for independence history, museums, coastal communities, markets and urban culture.",
+    "destinations": [
+      {"name":"Kwame Nkrumah Memorial Park","place":"Accra","category":"History and heritage","status":"Partially verified"},
+      {"name":"National Museum of Ghana","place":"Accra","category":"Museum","status":"Partially verified"},
+      {"name":"Independence Square","place":"Accra","category":"History","status":"Partially verified"},
+      {"name":"W.E.B. Du Bois Centre","place":"Accra","category":"African diaspora heritage","status":"Partially verified"},
+      {"name":"Jamestown Lighthouse","place":"Jamestown","category":"Coastal heritage","status":"Partially verified"},
+      {"name":"Shai Hills Resource Reserve","place":"Shai Hills","category":"Nature and wildlife","status":"Partially verified"},
+      {"name":"Legon Botanical Gardens","place":"Legon","category":"Nature and recreation","status":"Partially verified"},
+      {"name":"Makola Market","place":"Accra","category":"Market and culture","status":"Partially verified"},
+      {"name":"Ntonso-style coffin-making communities","place":"Teshie and Nungua","category":"Traditional craft","status":"Research locality; confirm workshops"}
+    ]
+  },
+  {
+    "name": "Ashanti",
+    "capital": "Kumasi",
+    "description": "The historic heartland of the Asante Kingdom, with royal heritage, kente weaving, Adinkra cloth, crafts and forest landscapes.",
+    "destinations": [
+      {"name":"Manhyia Palace Museum","place":"Kumasi","category":"Royal heritage","status":"Partially verified"},
+      {"name":"Kumasi Fort and Military Museum","place":"Kumasi","category":"Museum and history","status":"Partially verified"},
+      {"name":"Okomfo Anokye Sword site","place":"Kumasi","category":"Cultural heritage","status":"Partially verified"},
+      {"name":"Bonwire Kente Weaving Community","place":"Bonwire","category":"Textile and craft","status":"Partially verified"},
+      {"name":"Ntonso Adinkra Cloth Community","place":"Ntonso","category":"Textile and craft","status":"Partially verified"},
+      {"name":"Ahwiaa Craft Village","place":"Ahwiaa","category":"Traditional craft","status":"Partially verified"},
+      {"name":"Lake Bosomtwe","place":"Bosomtwe","category":"Nature and recreation","status":"Partially verified"},
+      {"name":"Bobiri Forest Reserve and Butterfly Sanctuary","place":"Near Kubease","category":"Nature and wildlife","status":"Partially verified"},
+      {"name":"Owabi Wildlife Sanctuary","place":"Ashanti Region","category":"Wildlife","status":"Partially verified"},
+      {"name":"Bomfobiri Wildlife Sanctuary","place":"Ashanti Region","category":"Wildlife","status":"Partially verified"}
+    ]
+  },
+  {
+    "name": "Western",
+    "capital": "Sekondi-Takoradi",
+    "description": "A coastal region with historic forts, beaches, Nzema culture, rainforest and marine landscapes.",
+    "destinations": [
+      {"name":"Fort Metal Cross","place":"Dixcove","category":"History and heritage","status":"Research and access confirmation required"},
+      {"name":"Fort San Sebastian","place":"Shama","category":"History and heritage","status":"Research and access confirmation required"},
+      {"name":"Nzulezo Stilt Village","place":"Near Beyin","category":"Community and cultural tourism","status":"Research and access confirmation required"},
+      {"name":"Ankasa Conservation Area","place":"Jomoro area","category":"Nature and wildlife","status":"Research and access confirmation required"},
+      {"name":"Busua Beach","place":"Busua","category":"Beach and recreation","status":"Research and access confirmation required"},
+      {"name":"Axim Beach","place":"Axim","category":"Beach and recreation","status":"Research and access confirmation required"}
+    ]
+  },
+  {
+    "name": "Western North",
+    "capital": "Sefwi Wiawso",
+    "description": "A forest-rich region with cocoa-growing communities, waterfalls and opportunities for nature and community tourism.",
+    "destinations": [
+      {"name":"Bia National Park","place":"Bia area","category":"Nature and wildlife","status":"Research and access confirmation required"},
+      {"name":"Bia Conservation Area","place":"Bia area","category":"Nature and wildlife","status":"Research and access confirmation required"},
+      {"name":"Sefwi Wiawso traditional and cultural sites","place":"Sefwi Wiawso","category":"Culture and heritage","status":"Individual sites require research"}
+    ]
+  },
+  {
+    "name": "Central",
+    "capital": "Cape Coast",
+    "description": "A major centre of coastal history, forts and castles, the transatlantic slave trade, festivals and beaches.",
+    "destinations": [
+      {"name":"Cape Coast Castle","place":"Cape Coast","category":"African diaspora heritage","status":"Research current access and visitor details"},
+      {"name":"Elmina Castle","place":"Elmina","category":"African diaspora heritage","status":"Research current access and visitor details"},
+      {"name":"Kakum National Park","place":"Near Cape Coast","category":"Nature and adventure","status":"Research current access and visitor details"},
+      {"name":"Fort Amsterdam","place":"Abandze","category":"History and heritage","status":"Research and access confirmation required"},
+      {"name":"Fort William","place":"Anomabo","category":"History and heritage","status":"Research and access confirmation required"},
+      {"name":"Assin Manso Ancestral Slave River Site","place":"Assin Manso","category":"African diaspora heritage","status":"Research current access and visitor details"},
+      {"name":"Posuban shrines","place":"Various Fante communities","category":"Cultural heritage","status":"Identify individual sites and custodians"}
+    ]
+  },
+  {
+    "name": "Eastern",
+    "capital": "Koforidua",
+    "description": "Known for mountains, waterfalls, lakes, botanical gardens, traditional communities and scenic landscapes.",
+    "destinations": [
+      {"name":"Boti Falls","place":"Boti","category":"Waterfall and nature","status":"Research current access and visitor details"},
+      {"name":"Aburi Botanical Gardens","place":"Aburi","category":"Nature and gardens","status":"Research current access and visitor details"},
+      {"name":"Akaa Falls","place":"Akaa","category":"Waterfall and nature","status":"Research current access and visitor details"},
+      {"name":"Umbrella Rock","place":"Near Boti Falls","category":"Geological feature","status":"Research current access and visitor details"},
+      {"name":"Akosombo Dam","place":"Akosombo","category":"Modern landmark","status":"Public tours require confirmation"},
+      {"name":"Tetteh Quarshie Cocoa Farm","place":"Mampong-Akuapem area","category":"Agricultural heritage","status":"Research visitor arrangements"}
+    ]
+  },
+  {
+    "name": "Volta",
+    "capital": "Ho",
+    "description": "A region of Ewe culture, mountains, waterfalls, Lake Volta and coastal landscapes.",
+    "destinations": [
+      {"name":"Wli Waterfalls","place":"Wli","category":"Waterfall and nature","status":"Research current access and visitor details"},
+      {"name":"Mount Afadja (Afadjato)","place":"Amedzofe/Liati area","category":"Mountain and adventure","status":"Research current access and visitor details"},
+      {"name":"Tafi Atome Monkey Sanctuary","place":"Tafi Atome","category":"Community conservation","status":"Research current access and visitor details"},
+      {"name":"Tafi Abuife Kente Weaving Community","place":"Tafi Abuife","category":"Textile and craft","status":"Research visitor arrangements"},
+      {"name":"Amedzofe","place":"Amedzofe","category":"Mountain and community tourism","status":"Research visitor arrangements"}
+    ]
+  },
+  {
+    "name": "Oti",
+    "capital": "Dambai",
+    "description": "A region of Lake Volta communities, rivers, forests, traditional cultures and wildlife landscapes.",
+    "destinations": [
+      {"name":"Kyabobo National Park","place":"Nkwanta area","category":"Nature and wildlife","status":"Research current access and visitor details"},
+      {"name":"Lake Volta communities","place":"Oti Region","category":"Water and community tourism","status":"Identify visitor-ready locations"},
+      {"name":"Nkwanta traditional heritage sites","place":"Nkwanta","category":"Culture and heritage","status":"Individual sites require research"}
+    ]
+  },
+  {
+    "name": "Northern",
+    "capital": "Tamale",
+    "description": "Known for Dagbon heritage, historic towns, crafts, festivals, markets and savannah landscapes.",
+    "destinations": [
+      {"name":"Gbewaa Palace","place":"Yendi","category":"Royal heritage","status":"Respect palace protocols; confirm access"},
+      {"name":"Tamale Central Market","place":"Tamale","category":"Market and culture","status":"Research visitor arrangements"},
+      {"name":"Larabanga Mosque","place":"Larabanga","category":"Architecture and heritage","status":"Confirm local visitor protocols"},
+      {"name":"Mognori Eco-Village","place":"Near Mole area","category":"Community tourism","status":"Research current visitor arrangements"}
+    ]
+  },
+  {
+    "name": "Savannah",
+    "capital": "Damongo",
+    "description": "A region of wildlife, historic settlements, rivers, conservation areas and savannah landscapes.",
+    "destinations": [
+      {"name":"Mole National Park","place":"Near Damongo","category":"Wildlife and safari","status":"Research current access and visitor details"},
+      {"name":"Larabanga Mosque","place":"Larabanga","category":"Architecture and heritage","status":"Confirm local visitor protocols"},
+      {"name":"Mole Motel viewpoint","place":"Mole National Park","category":"Nature and recreation","status":"Confirm current operation"},
+      {"name":"Wechiau-area community conservation experiences","place":"Regional research lead","category":"Community conservation","status":"Confirm exact location and regional jurisdiction"}
+    ]
+  },
+  {
+    "name": "North East",
+    "capital": "Nalerigu",
+    "description": "Traditional kingdoms, escarpments, sacred places and rural cultural heritage.",
+    "destinations": [
+      {"name":"Naa Jeringa Wall","place":"Nalerigu","category":"History and heritage","status":"Research historical interpretation and access"},
+      {"name":"Gambaga Escarpment","place":"Gambaga","category":"Landscape and nature","status":"Research access and local guidance"},
+      {"name":"Gambaga traditional heritage sites","place":"Gambaga","category":"Culture and heritage","status":"Identify individual sites and custodians"}
+    ]
+  },
+  {
+    "name": "Upper East",
+    "capital": "Bolgatanga",
+    "description": "Known for Paga, rock formations, traditional architecture, crafts and festivals.",
+    "destinations": [
+      {"name":"Paga Crocodile Pond","place":"Paga","category":"Wildlife and culture","status":"Research current access and visitor arrangements"},
+      {"name":"Tongo Hills and Tengzug","place":"Tongo","category":"Landscape and heritage","status":"Confirm local protocols and access"},
+      {"name":"Sirigu pottery and architecture community","place":"Sirigu","category":"Art and community tourism","status":"Research visitor arrangements"},
+      {"name":"Navrongo Cathedral","place":"Navrongo","category":"Architecture and heritage","status":"Confirm visitor arrangements"}
+    ]
+  },
+  {
+    "name": "Upper West",
+    "capital": "Wa",
+    "description": "A region of Wa heritage, traditional mosques, sacred sites, landscapes and community tourism.",
+    "destinations": [
+      {"name":"Wichau Community Hippo Sanctuary","place":"Wechiau","category":"Wildlife and community conservation","status":"Research current access and visitor details"},
+      {"name":"Wa Naa's Palace","place":"Wa","category":"Royal heritage","status":"Confirm visitor protocols"},
+      {"name":"Nakore Mosque","place":"Nakore","category":"Architecture and heritage","status":"Confirm local access and preservation status"},
+      {"name":"Gwollu Defence Wall","place":"Gwollu","category":"History and heritage","status":"Research current access and interpretation"}
+    ]
+  },
+  {
+    "name": "Bono",
+    "capital": "Sunyani",
+    "description": "Traditional heritage, forest landscapes, waterfalls and historic settlements.",
+    "destinations": [
+      {"name":"Boabeng-Fiema Monkey Sanctuary","place":"Boabeng-Fiema","category":"Wildlife and community conservation","status":"Research current access and visitor details"},
+      {"name":"Kintampo-area heritage and nature routes","place":"Check regional boundary","category":"Nature and heritage","status":"Verify regional jurisdiction before listing"}
+    ]
+  },
+  {
+    "name": "Bono East",
+    "capital": "Techiman",
+    "description": "River landscapes, traditional communities, agriculture and nature attractions.",
+    "destinations": [
+      {"name":"Kintampo Waterfalls","place":"Kintampo","category":"Waterfall and nature","status":"Research current access and visitor details"},
+      {"name":"Fuller Falls","place":"Kintampo area","category":"Waterfall and nature","status":"Research current access and visitor details"},
+      {"name":"Buoyem Caves and Bats","place":"Buoyem","category":"Caves and nature","status":"Research current access and visitor details"},
+      {"name":"Techiman traditional market","place":"Techiman","category":"Market and culture","status":"Research visitor arrangements"}
+    ]
+  },
+  {
+    "name": "Ahafo",
+    "capital": "Goaso",
+    "description": "Forest landscapes, traditional heritage, cocoa-growing communities and ecotourism opportunities.",
+    "destinations": [
+      {"name":"Kukuom traditional heritage leads","place":"Kukuom area","category":"Culture and heritage","status":"Identify and verify individual sites"},
+      {"name":"Ahafo forest and cocoa communities","place":"Ahafo Region","category":"Nature and agriculture","status":"Identify visitor-ready experiences"}
+    ]
+  }
+]

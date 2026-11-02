@@ -1,0 +1,12 @@
+[
+  {"name":"Trotro","description":"Shared minibuses that operate on set routes. They are widely used and usually inexpensive. Ask the mate or driver to confirm the destination before boarding.","tip":"Carry small Ghana cedi notes and coins where possible."},
+  {"name":"Metro Mass Transit and intercity buses","description":"Bus services connect some towns and cities. Private coach operators also serve major intercity routes.","tip":"Check the operator's current timetable, departure station and luggage rules."},
+  {"name":"STC and other coach services","description":"Long-distance coach services operate on selected routes between major towns and cities.","tip":"Book ahead for busy travel periods and confirm the departure terminal."},
+  {"name":"Taxis","description":"Taxis are available in cities and towns. Some are shared while others are hired privately.","tip":"Agree on the fare before starting a trip if the taxi is not using a meter."},
+  {"name":"Ride-hailing apps","description":"App-based services such as Yango and Bolt operate in some Ghanaian cities. Availability varies by location.","tip":"Check the vehicle, driver and fare details in the app before travelling."},
+  {"name":"Motorcycles and tricycles","description":"Okada motorcycles and tricycles are used for local transport in some areas. Rules and availability vary.","tip":"Use a helmet and check local regulations and safety conditions."},
+  {"name":"Domestic flights","description":"Domestic air services can reduce travel time between selected destinations when routes are operating.","tip":"Check current routes, schedules, baggage limits and airport details directly with the airline."},
+  {"name":"Rail","description":"Passenger rail services are limited to selected corridors and may not be useful for every journey.","tip":"Check current operations before planning a trip around rail travel."},
+  {"name":"Ferries and boats","description":"Boats and ferries serve some communities and routes around Lake Volta and other waterways.","tip":"Use authorised operators and follow life-jacket and safety instructions."},
+  {"name":"Car rental and private drivers","description":"Visitors can arrange self-drive rentals or hire a driver for day trips and longer journeys.","tip":"Confirm insurance, vehicle condition, driver arrangements and total costs in writing."}
+]

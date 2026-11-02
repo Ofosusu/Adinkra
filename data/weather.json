@@ -1,0 +1,14 @@
+[
+  {"month":"January","season":"Dry season","expect":"Generally hot and dry. Harmattan dust and dry air can affect visibility and comfort, especially in northern Ghana."},
+  {"month":"February","season":"Dry season","expect":"Hot conditions continue. The north is usually very dry; southern areas may feel humid."},
+  {"month":"March","season":"Transition toward rains","expect":"Hot weather continues. The first rains may begin in parts of southern Ghana."},
+  {"month":"April","season":"Main rainy season begins in the south","expect":"Rainfall becomes more frequent in many southern areas. Expect warm, humid conditions."},
+  {"month":"May","season":"Rainy season in much of the south","expect":"Showers and thunderstorms are common in southern Ghana. Northern areas may still be comparatively dry."},
+  {"month":"June","season":"Rainy season","expect":"Often wet in southern Ghana. Some roads and trails may become muddy or difficult to use."},
+  {"month":"July","season":"Mid-year rains and relative break in parts of the south","expect":"Rainfall patterns vary. Coastal and southern areas can be cloudy and humid; northern areas may be entering their rainy season."},
+  {"month":"August","season":"Variable; often cooler on the coast","expect":"Southern coastal areas may experience a relatively cooler, cloudy period. Northern Ghana is generally in its rainy season."},
+  {"month":"September","season":"Second rainy period in parts of the south","expect":"Rain may increase again in parts of southern Ghana. Northern areas can remain wet."},
+  {"month":"October","season":"Rainy season easing in the south","expect":"Rainfall often begins to reduce in southern Ghana, though local conditions differ."},
+  {"month":"November","season":"Dry season begins in many southern areas","expect":"Generally becoming drier and sunnier. Harmattan may begin later in the month or in some years later."},
+  {"month":"December","season":"Dry season and Harmattan","expect":"Usually hot and dry, with possible Harmattan haze, dust and cooler nights in some areas."}
+]
